@@ -45,3 +45,11 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+cmake-build-debug/libgcc_s_dw2-1.dll
+cmake-build-debug/libstdc++-6.dll
+cmake-build-debug/libwinpthread-1.dll
+cmake-build-debug/Qt5Core.dll
+cmake-build-debug/Qt5Guid.dll
+cmake-build-debug/Qt5Cored.dll
+cmake-build-debug/Qt5SerialPortd.dll
+cmake-build-debug/Qt5Widgetsd.dll

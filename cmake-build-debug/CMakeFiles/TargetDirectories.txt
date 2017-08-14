@@ -1,0 +1,4 @@
+D:/GitProjects/OscilloScopeSingle/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/GitProjects/OscilloScopeSingle/cmake-build-debug/CMakeFiles/OscilloScopeSingle.dir
+D:/GitProjects/OscilloScopeSingle/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/GitProjects/OscilloScopeSingle/cmake-build-debug/CMakeFiles/OscilloScopeSingle_autogen.dir

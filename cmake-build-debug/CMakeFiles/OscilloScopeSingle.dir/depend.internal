@@ -89,12 +89,17 @@ CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpaintdevice.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpainterpath.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpalette.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpen.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpixelformat.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpixmap.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpolygon.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qregion.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qrgb.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qrgba64.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextcursor.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextdocument.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextformat.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextoption.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtgui-config.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtguiglobal.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtouchdevice.h
@@ -107,8 +112,10 @@ CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QLabel
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QListWidget
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QMainWindow
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QProgressBar
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QPushButton
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QStackedLayout
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QTextEdit
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QWidget
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qabstractbutton.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qabstractitemdelegate.h
@@ -126,6 +133,7 @@ CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qlistview.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qlistwidget.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qmainwindow.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qprogressbar.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qpushbutton.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qrubberband.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qsizepolicy.h
@@ -135,6 +143,7 @@ CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qstyleoption.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtabbar.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtabwidget.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtextedit.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtwidgets-config.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtwidgetsglobal.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qwidget.h
@@ -233,12 +242,17 @@ CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpaintdevice.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpainterpath.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpalette.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpen.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpixelformat.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpixmap.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpolygon.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qregion.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qrgb.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qrgba64.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextcursor.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextdocument.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextformat.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextoption.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtgui-config.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtguiglobal.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtouchdevice.h
@@ -252,8 +266,10 @@ CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QLabel
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QListWidget
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QMainWindow
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QProgressBar
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QPushButton
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QStackedLayout
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QTextEdit
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QWidget
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qabstractbutton.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qabstractitemdelegate.h
@@ -273,6 +289,7 @@ CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qlistview.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qlistwidget.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qmainwindow.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qprogressbar.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qpushbutton.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qrubberband.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qsizepolicy.h
@@ -282,12 +299,14 @@ CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qstyleoption.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtabbar.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtabwidget.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtextedit.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtwidgets-config.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtwidgetsglobal.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qwidget.h
  D:/GitProjects/OscilloScopeSingle/main.cpp
  D:/GitProjects/OscilloScopeSingle/mainwindow.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/QDebug
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qabstractitemmodel.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qalgorithms.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qarraydata.h
@@ -307,8 +326,10 @@ CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qcoreevent.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdatastream.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdebug.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdir.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qfile.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qfiledevice.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qfileinfo.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qflags.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qgenericatomic.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qglobal.h
@@ -383,6 +404,7 @@ CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qrgb.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qrgba64.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextcursor.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextdocument.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextformat.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextoption.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtgui-config.h
@@ -399,12 +421,15 @@ CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtSerialPort/qserialportglobal.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtSerialPort/qserialportinfo.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QDialogButtonBox
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QFileDialog
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QLabel
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QLineEdit
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QListWidget
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QMainWindow
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QProgressBar
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QPushButton
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QStackedLayout
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QTextEdit
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QWidget
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qabstractbutton.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qabstractitemdelegate.h
@@ -413,7 +438,9 @@ CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qabstractslider.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qabstractspinbox.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qboxlayout.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qdialog.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qdialogbuttonbox.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qfiledialog.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qframe.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qgridlayout.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qlabel.h
@@ -423,6 +450,7 @@ CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qlistview.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qlistwidget.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qmainwindow.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qprogressbar.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qpushbutton.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qrubberband.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qsizepolicy.h
@@ -432,6 +460,7 @@ CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qstyleoption.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtabbar.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtabwidget.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtextedit.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtwidgets-config.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtwidgetsglobal.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qwidget.h

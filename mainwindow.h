@@ -11,6 +11,8 @@
 #include <QtWidgets/QListWidget>
 #include <QtWidgets/QStackedLayout>
 #include <QtWidgets/QDialogButtonBox>
+#include <QtWidgets/QProgressBar>
+#include <QtWidgets/QTextEdit>
 
 
 class MainWindow : public QMainWindow
@@ -25,8 +27,16 @@ private:
     //void createFormInterior();
     QPushButton *connectButton;
     QLabel *connectLabel;
+    QPushButton *pointFileButton;
+    QLineEdit *fileNameLine;
+    QLabel *fileHeaderLabel;
+    QPushButton *startGenerationButton;
+    QPushButton *stopGenerationButton;
+    QProgressBar *progressBar;
+    QTextEdit *errorTextEdit;
 
-
+private slots:
+    void pointFileButtonClicked();
 };
 
 

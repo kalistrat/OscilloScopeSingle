@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/QDebug
+qdebug.h
+C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdebug.h
+
 C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qabstractitemmodel.h
 QtCore/qvariant.h
 -
@@ -172,6 +176,16 @@ map
 utility
 -
 
+C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdir.h
+QtCore/qstring.h
+-
+QtCore/qfileinfo.h
+-
+QtCore/qstringlist.h
+-
+QtCore/qshareddata.h
+-
+
 C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qeventloop.h
 QtCore/qobject.h
 -
@@ -188,6 +202,16 @@ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qfiledevice.h
 QtCore/qiodevice.h
 -
 QtCore/qstring.h
+-
+
+C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qfileinfo.h
+QtCore/qfile.h
+-
+QtCore/qlist.h
+-
+QtCore/qshareddata.h
+-
+QtCore/qmetatype.h
 -
 
 C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qflags.h
@@ -1006,6 +1030,22 @@ QtCore/qshareddata.h
 QtGui/qtextformat.h
 -
 
+C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextdocument.h
+QtGui/qtguiglobal.h
+-
+QtCore/qobject.h
+-
+QtCore/qsize.h
+-
+QtCore/qrect.h
+-
+QtCore/qvariant.h
+-
+QtGui/qfont.h
+-
+QtCore/qurl.h
+-
+
 C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextformat.h
 QtGui/qtguiglobal.h
 -
@@ -1142,6 +1182,10 @@ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QDialogButtonBox
 qdialogbuttonbox.h
 C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qdialogbuttonbox.h
 
+C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QFileDialog
+qfiledialog.h
+C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qfiledialog.h
+
 C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QLabel
 qlabel.h
 C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qlabel.h
@@ -1158,6 +1202,10 @@ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QMainWindow
 qmainwindow.h
 C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qmainwindow.h
 
+C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QProgressBar
+qprogressbar.h
+C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qprogressbar.h
+
 C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QPushButton
 qpushbutton.h
 C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qpushbutton.h
@@ -1165,6 +1213,10 @@ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qpushbutton.h
 C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QStackedLayout
 qstackedlayout.h
 C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qstackedlayout.h
+
+C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QTextEdit
+qtextedit.h
+C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtextedit.h
 
 C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QWidget
 qwidget.h
@@ -1254,10 +1306,28 @@ QtWidgets/qtwidgetsglobal.h
 QtWidgets/qwidget.h
 -
 
+C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qdialog.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
+-
+
 C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qdialogbuttonbox.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
+-
+
+C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qfiledialog.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtCore/qdir.h
+-
+QtCore/qstring.h
+-
+QtCore/qurl.h
+-
+QtWidgets/qdialog.h
 -
 
 C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qframe.h
@@ -1350,6 +1420,12 @@ QtWidgets/qwidget.h
 QtWidgets/qtabwidget.h
 -
 
+C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qprogressbar.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qframe.h
+-
+
 C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qpushbutton.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -1438,6 +1514,20 @@ QtWidgets/qwidget.h
 QtGui/qicon.h
 -
 
+C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtextedit.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qabstractscrollarea.h
+-
+QtGui/qtextdocument.h
+-
+QtGui/qtextoption.h
+-
+QtGui/qtextcursor.h
+-
+QtGui/qtextformat.h
+-
+
 C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtwidgets-config.h
 
 C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtwidgetsglobal.h
@@ -1511,6 +1601,10 @@ QtSerialPort/QSerialPort
 -
 QtSerialPort/QSerialPortInfo
 -
+QtWidgets/QFileDialog
+-
+QDebug
+-
 
 D:/GitProjects/OscilloScopeSingle/mainwindow.h
 QtWidgets/QWidget
@@ -1526,5 +1620,9 @@ QtWidgets/QListWidget
 QtWidgets/QStackedLayout
 -
 QtWidgets/QDialogButtonBox
+-
+QtWidgets/QProgressBar
+-
+QtWidgets/QTextEdit
 -
 

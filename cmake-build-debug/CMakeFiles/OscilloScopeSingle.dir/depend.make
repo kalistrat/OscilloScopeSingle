@@ -88,12 +88,17 @@ CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpaintdevice.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpainterpath.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpalette.h
+CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpen.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpixelformat.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpixmap.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpolygon.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qregion.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qrgb.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qrgba64.h
+CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextcursor.h
+CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextdocument.h
+CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextformat.h
+CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextoption.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtgui-config.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtguiglobal.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtouchdevice.h
@@ -106,8 +111,10 @@ CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QLabel
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QListWidget
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QMainWindow
+CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QProgressBar
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QPushButton
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QStackedLayout
+CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QTextEdit
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QWidget
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qabstractbutton.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qabstractitemdelegate.h
@@ -125,6 +132,7 @@ CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qlistview.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qlistwidget.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qmainwindow.h
+CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qprogressbar.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qpushbutton.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qrubberband.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qsizepolicy.h
@@ -134,6 +142,7 @@ CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qstyleoption.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtabbar.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtabwidget.h
+CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtextedit.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtwidgets-config.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtwidgetsglobal.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qwidget.h
@@ -232,12 +241,17 @@ CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/inc
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpaintdevice.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpainterpath.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpalette.h
+CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpen.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpixelformat.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpixmap.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qpolygon.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qregion.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qrgb.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qrgba64.h
+CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextcursor.h
+CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextdocument.h
+CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextformat.h
+CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextoption.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtgui-config.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtguiglobal.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtouchdevice.h
@@ -251,8 +265,10 @@ CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/inc
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QLabel
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QListWidget
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QMainWindow
+CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QProgressBar
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QPushButton
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QStackedLayout
+CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QTextEdit
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QWidget
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qabstractbutton.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qabstractitemdelegate.h
@@ -272,6 +288,7 @@ CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/inc
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qlistview.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qlistwidget.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qmainwindow.h
+CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qprogressbar.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qpushbutton.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qrubberband.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qsizepolicy.h
@@ -281,12 +298,14 @@ CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/inc
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qstyleoption.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtabbar.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtabwidget.h
+CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtextedit.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtwidgets-config.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtwidgetsglobal.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qwidget.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: ../mainwindow.h
 
+CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/QDebug
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qabstractitemmodel.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qalgorithms.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qarraydata.h
@@ -306,8 +325,10 @@ CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qcoreevent.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdatastream.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdebug.h
+CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdir.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qfile.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qfiledevice.h
+CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qfileinfo.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qflags.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qgenericatomic.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qglobal.h
@@ -382,6 +403,7 @@ CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qrgb.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qrgba64.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextcursor.h
+CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextdocument.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextformat.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtextoption.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qtgui-config.h
@@ -398,12 +420,15 @@ CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtSerialPort/qserialportglobal.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtSerialPort/qserialportinfo.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QDialogButtonBox
+CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QFileDialog
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QLabel
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QLineEdit
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QListWidget
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QMainWindow
+CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QProgressBar
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QPushButton
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QStackedLayout
+CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QTextEdit
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QWidget
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qabstractbutton.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qabstractitemdelegate.h
@@ -412,7 +437,9 @@ CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qabstractslider.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qabstractspinbox.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qboxlayout.h
+CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qdialog.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qdialogbuttonbox.h
+CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qfiledialog.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qframe.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qgridlayout.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qlabel.h
@@ -422,6 +449,7 @@ CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qlistview.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qlistwidget.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qmainwindow.h
+CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qprogressbar.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qpushbutton.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qrubberband.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qsizepolicy.h
@@ -431,6 +459,7 @@ CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qstyleoption.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtabbar.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtabwidget.h
+CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtextedit.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtwidgets-config.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtwidgetsglobal.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qwidget.h

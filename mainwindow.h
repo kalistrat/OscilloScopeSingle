@@ -37,6 +37,10 @@ private:
 
 private slots:
     void pointFileButtonClicked();
+    void connectButtonClicked();
+    void startGenerationButtonClicked();
+    void stopGenerationButtonClicked();
+
 };
 
 

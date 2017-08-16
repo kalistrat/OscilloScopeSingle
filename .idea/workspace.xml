@@ -39,8 +39,8 @@
       <file leaf-file-name="mainwindow.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mainwindow.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1020">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="-70">
+              <caret line="121" column="36" lean-forward="false" selection-start-line="121" selection-start-column="36" selection-end-line="121" selection-end-column="36" />
               <folding>
                 <element signature="e#1#24#0" expanded="true" />
               </folding>
@@ -51,8 +51,8 @@
       <file leaf-file-name="mainwindow.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainwindow.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+            <state relative-caret-position="230">
+              <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="36" />
               <folding>
                 <element signature="e#74#102#0" expanded="true" />
               </folding>
@@ -169,11 +169,12 @@
       <updated>1502707734426</updated>
       <workItem from="1502707742258" duration="3009000" />
       <workItem from="1502803706819" duration="6901000" />
+      <workItem from="1502877029819" duration="4997000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9910000" />
+    <option name="totallyTimeSpent" value="14907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1168" height="696" extended-state="6" />
@@ -246,14 +247,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -262,10 +255,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mainwindow.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        <state relative-caret-position="230">
+          <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="36" />
           <folding>
             <element signature="e#74#102#0" expanded="true" />
           </folding>
@@ -274,8 +275,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mainwindow.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1020">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="-70">
+          <caret line="121" column="36" lean-forward="false" selection-start-line="121" selection-start-column="36" selection-end-line="121" selection-end-column="36" />
           <folding>
             <element signature="e#1#24#0" expanded="true" />
           </folding>

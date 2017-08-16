@@ -20,7 +20,10 @@ MainWindow::MainWindow(QWidget *parent)
     QHBoxLayout *TopWidgetLine = new QHBoxLayout();
 
     connectButton = new QPushButton (trUtf8("Подключиться"), this);
-    connectButton->setIcon(QIcon("logout.ico"));
+    connectButton->setIcon(QIcon("connect.ico"));
+
+    connect(connectButton, SIGNAL (released()), this, SLOT (connectButtonClicked()));
+
     //connectButton->setFixedSize(100,30);
     TopWidgetLine->addWidget(connectButton);
 
@@ -29,11 +32,13 @@ MainWindow::MainWindow(QWidget *parent)
     TopWidgetLine->addWidget(connectLabel);
 
     pointFileButton = new QPushButton(trUtf8("Указать файл"), this);
+    pointFileButton->setIcon(QIcon("openfile.ico"));
 
     connect(pointFileButton, SIGNAL (released()), this, SLOT (pointFileButtonClicked()));
 
     QLabel *fileNameLineLabel = new QLabel(trUtf8("Имя выбранного файла:"));
     fileNameLine = new QLineEdit(this);
+    fileNameLine->setEnabled(false);
     fileHeaderLabel = new QLabel(trUtf8("Заголовок"),this);
 
     QVBoxLayout *MiddleRightWidgetBox = new QVBoxLayout();
@@ -48,7 +53,12 @@ MainWindow::MainWindow(QWidget *parent)
 
     QHBoxLayout *MiddleWidgetLine2 = new QHBoxLayout();
     startGenerationButton = new QPushButton(trUtf8("Начать генерацию"), this);
+    startGenerationButton->setIcon(QIcon("play.ico"));
+    connect(startGenerationButton, SIGNAL (released()), this, SLOT (startGenerationButtonClicked()));
+
     stopGenerationButton = new QPushButton(trUtf8("Остановить генерацию"), this);
+    stopGenerationButton->setIcon(QIcon("stop3.ico"));
+    connect(stopGenerationButton, SIGNAL (released()), this, SLOT (stopGenerationButtonClicked()));
 
     MiddleWidgetLine2->addWidget(startGenerationButton);
     MiddleWidgetLine2->addWidget(stopGenerationButton);
@@ -71,6 +81,7 @@ MainWindow::MainWindow(QWidget *parent)
     QLabel *progressBarLabel = new QLabel(trUtf8("Статус выполнения генерации: "),this);
 
     errorTextEdit = new QTextEdit();
+    //errorTextEdit->setEnabled(false);
     QLabel *errorTextLabel = new QLabel(trUtf8("Окно сообщений: "),this);
     QLabel *connectLabel = new QLabel(trUtf8("Подключение к прибору: "),this);
     QLabel *importLabel = new QLabel(trUtf8("Импорт файла: "),this);
@@ -108,6 +119,8 @@ void MainWindow::pointFileButtonClicked()
 
     QFile file(fileName);
 
+    fileNameLine->setText(fileName);
+
 
     int nRows = 0;
     if (file.open(QIODevice::ReadOnly | QIODevice::Text))
@@ -131,6 +144,36 @@ void MainWindow::pointFileButtonClicked()
         }
         file.close();
     }
+}
+
+
+void MainWindow::connectButtonClicked()
+{
+    errorTextEdit->append("Производится опрашивание доступных портов");
+
+            foreach (const QSerialPortInfo &info, QSerialPortInfo::availablePorts()) {
+            errorTextEdit->append("Проверяется порт : " + info.portName() + " : устройство не найдено");
+            QSerialPort serial;
+            serial.setPort(info);
+            if (serial.open(QIODevice::ReadWrite))
+                serial.close();
+        }
+
+    errorTextEdit->append("Проверка портов завершена");
+
+
+    qDebug() << connectButton->text();
+
+}
+
+void MainWindow::startGenerationButtonClicked()
+{
+    errorTextEdit->append("Генерация запущена");
+}
+
+void MainWindow::stopGenerationButtonClicked()
+{
+    errorTextEdit->append("Генерация остановлена");
 }
 
 MainWindow::~MainWindow()

@@ -162,6 +162,87 @@ OscilloScopeSingle_autogen/moc_compilation.cpp.s:
 	$(MAKE) -f CMakeFiles\OscilloScopeSingle.dir\build.make CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.s
 .PHONY : OscilloScopeSingle_autogen/moc_compilation.cpp.s
 
+crc16_ccitt.obj: crc16_ccitt.cpp.obj
+
+.PHONY : crc16_ccitt.obj
+
+# target to build an object file
+crc16_ccitt.cpp.obj:
+	$(MAKE) -f CMakeFiles\OscilloScopeSingle.dir\build.make CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj
+.PHONY : crc16_ccitt.cpp.obj
+
+crc16_ccitt.i: crc16_ccitt.cpp.i
+
+.PHONY : crc16_ccitt.i
+
+# target to preprocess a source file
+crc16_ccitt.cpp.i:
+	$(MAKE) -f CMakeFiles\OscilloScopeSingle.dir\build.make CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.i
+.PHONY : crc16_ccitt.cpp.i
+
+crc16_ccitt.s: crc16_ccitt.cpp.s
+
+.PHONY : crc16_ccitt.s
+
+# target to generate assembly for a file
+crc16_ccitt.cpp.s:
+	$(MAKE) -f CMakeFiles\OscilloScopeSingle.dir\build.make CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.s
+.PHONY : crc16_ccitt.cpp.s
+
+devcmd.obj: devcmd.cpp.obj
+
+.PHONY : devcmd.obj
+
+# target to build an object file
+devcmd.cpp.obj:
+	$(MAKE) -f CMakeFiles\OscilloScopeSingle.dir\build.make CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj
+.PHONY : devcmd.cpp.obj
+
+devcmd.i: devcmd.cpp.i
+
+.PHONY : devcmd.i
+
+# target to preprocess a source file
+devcmd.cpp.i:
+	$(MAKE) -f CMakeFiles\OscilloScopeSingle.dir\build.make CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.i
+.PHONY : devcmd.cpp.i
+
+devcmd.s: devcmd.cpp.s
+
+.PHONY : devcmd.s
+
+# target to generate assembly for a file
+devcmd.cpp.s:
+	$(MAKE) -f CMakeFiles\OscilloScopeSingle.dir\build.make CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.s
+.PHONY : devcmd.cpp.s
+
+hdlc.obj: hdlc.cpp.obj
+
+.PHONY : hdlc.obj
+
+# target to build an object file
+hdlc.cpp.obj:
+	$(MAKE) -f CMakeFiles\OscilloScopeSingle.dir\build.make CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj
+.PHONY : hdlc.cpp.obj
+
+hdlc.i: hdlc.cpp.i
+
+.PHONY : hdlc.i
+
+# target to preprocess a source file
+hdlc.cpp.i:
+	$(MAKE) -f CMakeFiles\OscilloScopeSingle.dir\build.make CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.i
+.PHONY : hdlc.cpp.i
+
+hdlc.s: hdlc.cpp.s
+
+.PHONY : hdlc.s
+
+# target to generate assembly for a file
+hdlc.cpp.s:
+	$(MAKE) -f CMakeFiles\OscilloScopeSingle.dir\build.make CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.s
+.PHONY : hdlc.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -229,6 +310,15 @@ help:
 	@echo ... OscilloScopeSingle_autogen/moc_compilation.obj
 	@echo ... OscilloScopeSingle_autogen/moc_compilation.i
 	@echo ... OscilloScopeSingle_autogen/moc_compilation.s
+	@echo ... crc16_ccitt.obj
+	@echo ... crc16_ccitt.i
+	@echo ... crc16_ccitt.s
+	@echo ... devcmd.obj
+	@echo ... devcmd.i
+	@echo ... devcmd.s
+	@echo ... hdlc.obj
+	@echo ... hdlc.i
+	@echo ... hdlc.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -117,6 +117,24 @@
 		<Unit filename="D:/GitProjects/OscilloScopeSingle/cmake-build-debug/OscilloScopeSingle_autogen/moc_compilation.cpp">
 			<Option target="OscilloScopeSingle"/>
 		</Unit>
+		<Unit filename="D:/GitProjects/OscilloScopeSingle/crc16_ccitt.cpp">
+			<Option target="OscilloScopeSingle"/>
+		</Unit>
+		<Unit filename="D:/GitProjects/OscilloScopeSingle/crc16_ccitt.h">
+			<Option target="OscilloScopeSingle"/>
+		</Unit>
+		<Unit filename="D:/GitProjects/OscilloScopeSingle/devcmd.cpp">
+			<Option target="OscilloScopeSingle"/>
+		</Unit>
+		<Unit filename="D:/GitProjects/OscilloScopeSingle/devcmd.h">
+			<Option target="OscilloScopeSingle"/>
+		</Unit>
+		<Unit filename="D:/GitProjects/OscilloScopeSingle/hdlc.cpp">
+			<Option target="OscilloScopeSingle"/>
+		</Unit>
+		<Unit filename="D:/GitProjects/OscilloScopeSingle/hdlc.h">
+			<Option target="OscilloScopeSingle"/>
+		</Unit>
 		<Unit filename="D:/GitProjects/OscilloScopeSingle/main.cpp">
 			<Option target="OscilloScopeSingle"/>
 		</Unit>

@@ -106,10 +106,85 @@ CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj.provides: CMakeFiles/Oscill
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj.provides.build: CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj
 
 
+CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj: CMakeFiles/OscilloScopeSingle.dir/flags.make
+CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj: CMakeFiles/OscilloScopeSingle.dir/includes_CXX.rsp
+CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj: ../crc16_ccitt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitProjects\OscilloScopeSingle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OscilloScopeSingle.dir\crc16_ccitt.cpp.obj -c D:\GitProjects\OscilloScopeSingle\crc16_ccitt.cpp
+
+CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitProjects\OscilloScopeSingle\crc16_ccitt.cpp > CMakeFiles\OscilloScopeSingle.dir\crc16_ccitt.cpp.i
+
+CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitProjects\OscilloScopeSingle\crc16_ccitt.cpp -o CMakeFiles\OscilloScopeSingle.dir\crc16_ccitt.cpp.s
+
+CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj.requires:
+
+.PHONY : CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj.requires
+
+CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj.provides: CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\OscilloScopeSingle.dir\build.make CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj.provides.build
+.PHONY : CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj.provides
+
+CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj.provides.build: CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj
+
+
+CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj: CMakeFiles/OscilloScopeSingle.dir/flags.make
+CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj: CMakeFiles/OscilloScopeSingle.dir/includes_CXX.rsp
+CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj: ../devcmd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitProjects\OscilloScopeSingle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OscilloScopeSingle.dir\devcmd.cpp.obj -c D:\GitProjects\OscilloScopeSingle\devcmd.cpp
+
+CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitProjects\OscilloScopeSingle\devcmd.cpp > CMakeFiles\OscilloScopeSingle.dir\devcmd.cpp.i
+
+CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitProjects\OscilloScopeSingle\devcmd.cpp -o CMakeFiles\OscilloScopeSingle.dir\devcmd.cpp.s
+
+CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj.requires:
+
+.PHONY : CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj.requires
+
+CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj.provides: CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\OscilloScopeSingle.dir\build.make CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj.provides.build
+.PHONY : CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj.provides
+
+CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj.provides.build: CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj
+
+
+CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj: CMakeFiles/OscilloScopeSingle.dir/flags.make
+CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj: CMakeFiles/OscilloScopeSingle.dir/includes_CXX.rsp
+CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj: ../hdlc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitProjects\OscilloScopeSingle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OscilloScopeSingle.dir\hdlc.cpp.obj -c D:\GitProjects\OscilloScopeSingle\hdlc.cpp
+
+CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitProjects\OscilloScopeSingle\hdlc.cpp > CMakeFiles\OscilloScopeSingle.dir\hdlc.cpp.i
+
+CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitProjects\OscilloScopeSingle\hdlc.cpp -o CMakeFiles\OscilloScopeSingle.dir\hdlc.cpp.s
+
+CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj.requires:
+
+.PHONY : CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj.requires
+
+CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj.provides: CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\OscilloScopeSingle.dir\build.make CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj.provides.build
+.PHONY : CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj.provides
+
+CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj.provides.build: CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj
+
+
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: CMakeFiles/OscilloScopeSingle.dir/flags.make
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: CMakeFiles/OscilloScopeSingle.dir/includes_CXX.rsp
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: OscilloScopeSingle_autogen/moc_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitProjects\OscilloScopeSingle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitProjects\OscilloScopeSingle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OscilloScopeSingle.dir\OscilloScopeSingle_autogen\moc_compilation.cpp.obj -c D:\GitProjects\OscilloScopeSingle\cmake-build-debug\OscilloScopeSingle_autogen\moc_compilation.cpp
 
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.i: cmake_force
@@ -135,6 +210,9 @@ CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp
 OscilloScopeSingle_OBJECTS = \
 "CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj" \
 "CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj" \
+"CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj" \
+"CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj" \
+"CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj" \
 "CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj"
 
 # External object files for target OscilloScopeSingle
@@ -142,6 +220,9 @@ OscilloScopeSingle_EXTERNAL_OBJECTS =
 
 OscilloScopeSingle.exe: CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj
 OscilloScopeSingle.exe: CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj
+OscilloScopeSingle.exe: CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj
+OscilloScopeSingle.exe: CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj
+OscilloScopeSingle.exe: CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj
 OscilloScopeSingle.exe: CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj
 OscilloScopeSingle.exe: CMakeFiles/OscilloScopeSingle.dir/build.make
 OscilloScopeSingle.exe: C:/Qt/Qt5.8.0/5.8/mingw53_32/lib/libQt5Widgetsd.a
@@ -151,7 +232,7 @@ OscilloScopeSingle.exe: C:/Qt/Qt5.8.0/5.8/mingw53_32/lib/libQt5Cored.a
 OscilloScopeSingle.exe: CMakeFiles/OscilloScopeSingle.dir/linklibs.rsp
 OscilloScopeSingle.exe: CMakeFiles/OscilloScopeSingle.dir/objects1.rsp
 OscilloScopeSingle.exe: CMakeFiles/OscilloScopeSingle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\GitProjects\OscilloScopeSingle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable OscilloScopeSingle.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\GitProjects\OscilloScopeSingle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable OscilloScopeSingle.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\OscilloScopeSingle.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -161,6 +242,9 @@ CMakeFiles/OscilloScopeSingle.dir/build: OscilloScopeSingle.exe
 
 CMakeFiles/OscilloScopeSingle.dir/requires: CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj.requires
 CMakeFiles/OscilloScopeSingle.dir/requires: CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj.requires
+CMakeFiles/OscilloScopeSingle.dir/requires: CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj.requires
+CMakeFiles/OscilloScopeSingle.dir/requires: CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj.requires
+CMakeFiles/OscilloScopeSingle.dir/requires: CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj.requires
 CMakeFiles/OscilloScopeSingle.dir/requires: CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj.requires
 
 .PHONY : CMakeFiles/OscilloScopeSingle.dir/requires

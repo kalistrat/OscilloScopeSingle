@@ -150,6 +150,15 @@ CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: OscilloScopeSingle_autogen/moc_compilation.cpp
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: ../mainwindow.h
 
+CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj: ../crc16_ccitt.cpp
+CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj: ../crc16_ccitt.h
+
+CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj: ../devcmd.cpp
+
+CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj: ../crc16_ccitt.h
+CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj: ../hdlc.cpp
+CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj: ../hdlc.h
+
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qabstractitemmodel.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qalgorithms.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qarraydata.h

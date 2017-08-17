@@ -5,6 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/GitProjects/OscilloScopeSingle/cmake-build-debug/OscilloScopeSingle_autogen/moc_compilation.cpp" "D:/GitProjects/OscilloScopeSingle/cmake-build-debug/CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj"
+  "D:/GitProjects/OscilloScopeSingle/crc16_ccitt.cpp" "D:/GitProjects/OscilloScopeSingle/cmake-build-debug/CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj"
+  "D:/GitProjects/OscilloScopeSingle/devcmd.cpp" "D:/GitProjects/OscilloScopeSingle/cmake-build-debug/CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj"
+  "D:/GitProjects/OscilloScopeSingle/hdlc.cpp" "D:/GitProjects/OscilloScopeSingle/cmake-build-debug/CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj"
   "D:/GitProjects/OscilloScopeSingle/main.cpp" "D:/GitProjects/OscilloScopeSingle/cmake-build-debug/CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj"
   "D:/GitProjects/OscilloScopeSingle/mainwindow.cpp" "D:/GitProjects/OscilloScopeSingle/cmake-build-debug/CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj"
   )

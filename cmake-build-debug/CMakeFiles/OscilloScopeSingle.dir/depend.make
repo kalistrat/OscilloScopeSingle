@@ -154,6 +154,8 @@ CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj: ../crc16_ccitt.cpp
 CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj: ../crc16_ccitt.h
 
 CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj: ../devcmd.cpp
+CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj: ../devcmd.h
+CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj: ../hdlc.h
 
 CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj: ../crc16_ccitt.h
 CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj: ../hdlc.cpp
@@ -311,10 +313,14 @@ CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/inc
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtwidgets-config.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtwidgetsglobal.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qwidget.h
+CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: ../crc16_ccitt.h
+CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: ../devcmd.h
+CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: ../hdlc.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: ../mainwindow.h
 
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/QDebug
+CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/QTextCodec
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qabstractitemmodel.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qalgorithms.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qarraydata.h
@@ -381,6 +387,7 @@ CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qsysinfo.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qsystemdetection.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qtcore-config.h
+CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qtextcodec.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qtextstream.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qtypeinfo.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qtypetraits.h
@@ -472,6 +479,7 @@ CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtwidgets-config.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtwidgetsglobal.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qwidget.h
+CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: ../devcmd.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: ../mainwindow.cpp
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: ../mainwindow.h
 

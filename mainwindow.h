@@ -35,6 +35,7 @@ private:
     QProgressBar *progressBar;
     QTextEdit *errorTextEdit;
 
+
 private slots:
     void pointFileButtonClicked();
     void connectButtonClicked();

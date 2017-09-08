@@ -10,6 +10,10 @@ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/QDebug
 qdebug.h
 C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdebug.h
 
+C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/QTextCodec
+qtextcodec.h
+C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qtextcodec.h
+
 C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qabstractitemmodel.h
 QtCore/qvariant.h
 -
@@ -619,6 +623,12 @@ AvailabilityMacros.h
 -
 
 C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qtcore-config.h
+
+C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qtextcodec.h
+QtCore/qstring.h
+-
+QtCore/qlist.h
+-
 
 C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qtextstream.h
 QtCore/qiodevice.h
@@ -1595,6 +1605,14 @@ stdint.h
 -
 
 D:/GitProjects/OscilloScopeSingle/devcmd.cpp
+string.h
+-
+devcmd.h
+D:/GitProjects/OscilloScopeSingle/devcmd.h
+hdlc.h
+D:/GitProjects/OscilloScopeSingle/hdlc.h
+
+D:/GitProjects/OscilloScopeSingle/devcmd.h
 stdint.h
 -
 
@@ -1621,6 +1639,16 @@ QApplication
 -
 mainwindow.h
 D:/GitProjects/OscilloScopeSingle/mainwindow.h
+hdlc.h
+D:/GitProjects/OscilloScopeSingle/hdlc.h
+devcmd.h
+D:/GitProjects/OscilloScopeSingle/devcmd.h
+stdio.h
+-
+vector
+-
+crc16_ccitt.h
+D:/GitProjects/OscilloScopeSingle/crc16_ccitt.h
 
 D:/GitProjects/OscilloScopeSingle/mainwindow.cpp
 mainwindow.h
@@ -1639,6 +1667,10 @@ QtWidgets/QFileDialog
 -
 QDebug
 -
+QtCore/QTextCodec
+-
+devcmd.h
+D:/GitProjects/OscilloScopeSingle/devcmd.h
 
 D:/GitProjects/OscilloScopeSingle/mainwindow.h
 QtWidgets/QWidget

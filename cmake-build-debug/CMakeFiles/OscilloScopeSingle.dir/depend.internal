@@ -155,6 +155,8 @@ CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj
  D:/GitProjects/OscilloScopeSingle/crc16_ccitt.h
 CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj
  D:/GitProjects/OscilloScopeSingle/devcmd.cpp
+ D:/GitProjects/OscilloScopeSingle/devcmd.h
+ D:/GitProjects/OscilloScopeSingle/hdlc.h
 CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj
  D:/GitProjects/OscilloScopeSingle/crc16_ccitt.h
  D:/GitProjects/OscilloScopeSingle/hdlc.cpp
@@ -312,10 +314,14 @@ CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtwidgets-config.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtwidgetsglobal.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qwidget.h
+ D:/GitProjects/OscilloScopeSingle/crc16_ccitt.h
+ D:/GitProjects/OscilloScopeSingle/devcmd.h
+ D:/GitProjects/OscilloScopeSingle/hdlc.h
  D:/GitProjects/OscilloScopeSingle/main.cpp
  D:/GitProjects/OscilloScopeSingle/mainwindow.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/QDebug
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/QTextCodec
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qabstractitemmodel.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qalgorithms.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qarraydata.h
@@ -382,6 +388,7 @@ CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qsysinfo.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qsystemdetection.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qtcore-config.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qtextcodec.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qtextstream.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qtypeinfo.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qtypetraits.h
@@ -473,5 +480,6 @@ CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtwidgets-config.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qtwidgetsglobal.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/qwidget.h
+ D:/GitProjects/OscilloScopeSingle/devcmd.h
  D:/GitProjects/OscilloScopeSingle/mainwindow.cpp
  D:/GitProjects/OscilloScopeSingle/mainwindow.h

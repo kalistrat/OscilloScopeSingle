@@ -7,7 +7,10 @@
 #include <QtSerialPort/QSerialPortInfo>
 #include <QtWidgets/QFileDialog>
 #include <QDebug>
+#include <QtCore/QTextCodec>
+#include "devcmd.h"
 
+extern std::vector<uint8_t>TxData;
 
 MainWindow::MainWindow(QWidget *parent)
         : QMainWindow(parent)
@@ -152,11 +155,34 @@ void MainWindow::connectButtonClicked()
     errorTextEdit->append("Производится опрашивание доступных портов");
 
             foreach (const QSerialPortInfo &info, QSerialPortInfo::availablePorts()) {
-            errorTextEdit->append("Проверяется порт : " + info.portName() + " : устройство не найдено");
+            errorTextEdit->append("Проверяется порт : " + info.portName());
             QSerialPort serial;
             serial.setPort(info);
-            if (serial.open(QIODevice::ReadWrite))
+
+            if (serial.open(QIODevice::ReadWrite)) {
+
+                cmdGetDeviceState();
+                QByteArray* sentData = new QByteArray(reinterpret_cast<const char*>(TxData.data()), TxData.size());
+                QByteArray input;
+                serial.write(sentData->data());
+                //TxData.clear();
+
+                serial.waitForBytesWritten(1000);
+                serial.waitForReadyRead(1000);
+                input = serial.readAll();
+                QString DataAsString = QTextCodec::codecForMib(106)->toUnicode(input);
+                qDebug() << DataAsString;
+
+                if (DataAsString.isEmpty()) {
+                    qDebug() << info.portName() + " Пустое значение";
+                }
+
+                if (DataAsString.isNull()) {
+                    qDebug() << info.portName() + " Вернул NULL";
+                }
                 serial.close();
+            }
+
         }
 
     errorTextEdit->append("Проверка портов завершена");

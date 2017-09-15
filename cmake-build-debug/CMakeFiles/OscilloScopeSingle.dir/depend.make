@@ -107,6 +107,9 @@ CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qvector2d.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qwindowdefs.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qwindowdefs_win.h
+CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtSerialPort/QSerialPortInfo
+CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtSerialPort/qserialportglobal.h
+CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtSerialPort/qserialportinfo.h
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QDialogButtonBox
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QLabel
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QListWidget
@@ -271,6 +274,9 @@ CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/inc
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qvector2d.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qwindowdefs.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qwindowdefs_win.h
+CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtSerialPort/QSerialPortInfo
+CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtSerialPort/qserialportglobal.h
+CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtSerialPort/qserialportinfo.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QApplication
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QDialogButtonBox
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QLabel
@@ -319,6 +325,7 @@ CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: ../hdlc.h
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj: ../mainwindow.h
 
+CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/QDate
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/QDebug
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/QTextCodec
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qabstractitemmodel.h
@@ -339,6 +346,7 @@ CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qcontiguouscache.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qcoreevent.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdatastream.h
+CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdatetime.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdebug.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdir.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj: C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qfile.h

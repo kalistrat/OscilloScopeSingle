@@ -8,6 +8,7 @@
 #include <QtWidgets/QFileDialog>
 #include <QDebug>
 #include <QtCore/QTextCodec>
+#include <QtCore/QDate>
 #include "devcmd.h"
 
 extern std::vector<uint8_t>TxData;
@@ -58,10 +59,12 @@ MainWindow::MainWindow(QWidget *parent)
     startGenerationButton = new QPushButton(trUtf8("Начать генерацию"), this);
     startGenerationButton->setIcon(QIcon("play.ico"));
     connect(startGenerationButton, SIGNAL (released()), this, SLOT (startGenerationButtonClicked()));
+    startGenerationButton->setEnabled(false);
 
     stopGenerationButton = new QPushButton(trUtf8("Остановить генерацию"), this);
     stopGenerationButton->setIcon(QIcon("stop3.ico"));
     connect(stopGenerationButton, SIGNAL (released()), this, SLOT (stopGenerationButtonClicked()));
+    stopGenerationButton->setEnabled(false);
 
     MiddleWidgetLine2->addWidget(startGenerationButton);
     MiddleWidgetLine2->addWidget(stopGenerationButton);
@@ -108,6 +111,12 @@ MainWindow::MainWindow(QWidget *parent)
 
     wgt->setLayout(mainLay);
 
+    //reqSerialPortInfo = NULL;
+    reqSerialPort = new QSerialPort();
+    genFileNamePath = "";
+    connect(reqSerialPort, SIGNAL(readyRead()), this, SLOT(serialReceived()));
+
+
     //tabViewPoint = new TabViewPoint(this);
 }
 
@@ -133,73 +142,174 @@ void MainWindow::pointFileButtonClicked()
 
     if ( !file.open(QFile::ReadOnly | QFile::Text) ) {
         qDebug() << "Файл не найден";
+        startGenerationButton->setEnabled(false);
+        stopGenerationButton->setEnabled(false);
     } else {
         // Создаём поток для извлечения данных из файла
         QTextStream in(&file);
         // Считываем данные до конца файла
 
-        while (!in.atEnd())
-        {
-            // ... построчно
-            QString line = in.readLine();
-            errorTextEdit->append(line);
-
+//        while (!in.atEnd())
+//        {
+//            // ... построчно
+//            QString line = in.readLine();
+//            errorTextEdit->append(line);
+//
+//        }
+        QString headerLabelline;
+        for (int i=0; i<2; i++) {
+            headerLabelline = headerLabelline + "  " + in.readLine();
         }
+        fileHeaderLabel->setText(trUtf8("Заголовок : ") + headerLabelline);
         file.close();
+        if (connectButton->text() ==  trUtf8("Отключиться")) {
+            startGenerationButton->setEnabled(true);
+            stopGenerationButton->setEnabled(true);
+        }
     }
 }
 
 
 void MainWindow::connectButtonClicked()
 {
-    errorTextEdit->append("Производится опрашивание доступных портов");
+    //QString butName = connectButton->text();
+    //qDebug() << butName;
 
-            foreach (const QSerialPortInfo &info, QSerialPortInfo::availablePorts()) {
-            errorTextEdit->append("Проверяется порт : " + info.portName());
-            QSerialPort serial;
-            serial.setPort(info);
+    if (connectButton->text() == "Подключиться") {
 
-            if (serial.open(QIODevice::ReadWrite)) {
+        errorTextEdit->append("Производится опрашивание доступных портов");
 
-                cmdGetDeviceState();
-                QByteArray* sentData = new QByteArray(reinterpret_cast<const char*>(TxData.data()), TxData.size());
-                QByteArray input;
-                serial.write(sentData->data());
-                //TxData.clear();
+                foreach (const QSerialPortInfo &info, QSerialPortInfo::availablePorts()) {
+                errorTextEdit->append("Проверяется порт : " + info.portName());
+                QSerialPort serial;
+                serial.setPort(info);
 
-                serial.waitForBytesWritten(1000);
-                serial.waitForReadyRead(1000);
-                input = serial.readAll();
-                QString DataAsString = QTextCodec::codecForMib(106)->toUnicode(input);
-                qDebug() << DataAsString;
+                if (serial.open(QIODevice::ReadWrite)) {
 
-                if (DataAsString.isEmpty()) {
-                    qDebug() << info.portName() + " Пустое значение";
+                    cmdGetDeviceState();
+                    QByteArray *sentData = new QByteArray(reinterpret_cast<const char *>(TxData.data()), TxData.size());
+                    QByteArray input;
+                    serial.write(sentData->data());
+                    //TxData.clear();
+
+                    serial.waitForBytesWritten(1000);
+                    serial.waitForReadyRead(1000);
+                    input = serial.readAll();
+                    //std::cout << input << std::endl;
+                    QString DataAsString = QTextCodec::codecForMib(106)->toUnicode(input);
+                    qDebug() << input;
+
+                    if (DataAsString == "~") {
+                        errorTextEdit->append(info.portName() + " : " + "устройство найдено");
+                        reqSerialPortInfo = info;
+                    }
+                    serial.close();
                 }
 
-                if (DataAsString.isNull()) {
-                    qDebug() << info.portName() + " Вернул NULL";
-                }
-                serial.close();
             }
 
+        errorTextEdit->append("Проверка портов завершена");
+
+        if (!reqSerialPortInfo.isNull()) {
+            reqSerialPort->setPort(reqSerialPortInfo);
+            reqSerialPort->open(QIODevice::ReadWrite);
+
+            connectLabel->setText("Устройство подключено");
+            connectLabel->setStyleSheet("border: 1px solid black; border-radius: 3px; background-color: green;");
+            connectButton->setText("Отключиться");
+
+            if (!(fileNameLine->text()).isEmpty()) {
+                startGenerationButton->setEnabled(true);
+                stopGenerationButton->setEnabled(true);
+            }
         }
 
-    errorTextEdit->append("Проверка портов завершена");
+    } else {
+        reqSerialPort->close();
+        connectLabel->setText("Устройство не подключено");
+        connectLabel->setStyleSheet("border: 1px solid black; border-radius: 3px; background-color: red;");
+        connectButton->setText("Подключиться");
+        startGenerationButton->setEnabled(false);
+        stopGenerationButton->setEnabled(false);
+    }
 
 
-    qDebug() << connectButton->text();
+
+    //qDebug() << connectButton->text();
 
 }
 
 void MainWindow::startGenerationButtonClicked()
 {
     errorTextEdit->append("Генерация запущена");
+    QString prevFileName = fileHeaderLabel->text();
+    prevFileName.replace("#CLOCK=","C");
+    prevFileName.replace("#SIZE=","S");
+    prevFileName.replace(" ","");
+    prevFileName.replace(trUtf8("Заголовок"),"");
+    prevFileName.replace(trUtf8(":"),"");
+
+    QFileInfo fileNamePath(fileNameLine->text());
+    QString sfileNamePath = fileNameLine->text();
+    QString fileNameOnly = fileNamePath.fileName();
+    fileNameOnly.replace(".csv","");
+
+    QString sCurrentDate = QDateTime::currentDateTime().toString("yyyyMMddhhmm");
+    QString genFileName = fileNameOnly + "_" + prevFileName+ "_" + sCurrentDate + ".csv";
+    genFileNamePath = sfileNamePath.replace(fileNameOnly + ".csv","") + genFileName;
+
+
+    QFile transFile(fileNameLine->text());
+//    outFile.open(QIODevice::WriteOnly);
+//    outFile.close();
+//
+//    errorTextEdit->append(sfileNamePath);
+//    errorTextEdit->append(fileNameOnly);
+//    errorTextEdit->append(genFileName);
+//    errorTextEdit->append(genFileNamePath);
+
+
+    if ( !transFile.open(QFile::ReadOnly | QFile::Text) ) {
+        qDebug() << "Файл не найден";
+    } else {
+        // Создаём поток для извлечения данных из файла
+        QTextStream inStr(&transFile);
+        QByteArray transByteData;
+        // Считываем данные до конца файла
+
+        while (!inStr.atEnd())
+        {
+            // ... построчно
+            QString line = inStr.readLine();
+            for (int i = 0; i < line.size(); ++i)
+            transByteData.append(line.at(i));
+
+        }
+        transFile.close();
+        //reqSerialPort->waitForBytesWritten(transByteData.length());
+        reqSerialPort->write(transByteData.data());
+
+
+    }
+
 }
 
 void MainWindow::stopGenerationButtonClicked()
 {
     errorTextEdit->append("Генерация остановлена");
+}
+
+void MainWindow::serialReceived()
+{
+        QFile outFile(genFileNamePath);
+        QTextStream out(&outFile);
+        outFile.open(QIODevice::ReadWrite | QIODevice::Append);
+        QByteArray ba;
+        //reqSerialPort->waitForReadyRead(1000);
+        ba = reqSerialPort->readAll();
+        out << ba;
+        outFile.close();
+        //qDebug() << "serialReceived inside";
 }
 
 MainWindow::~MainWindow()

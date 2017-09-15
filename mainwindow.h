@@ -13,6 +13,7 @@
 #include <QtWidgets/QDialogButtonBox>
 #include <QtWidgets/QProgressBar>
 #include <QtWidgets/QTextEdit>
+#include <QtSerialPort/QSerialPortInfo>
 
 
 class MainWindow : public QMainWindow
@@ -34,6 +35,9 @@ private:
     QPushButton *stopGenerationButton;
     QProgressBar *progressBar;
     QTextEdit *errorTextEdit;
+    QSerialPortInfo reqSerialPortInfo;
+    QSerialPort *reqSerialPort;
+    QString genFileNamePath;
 
 
 private slots:
@@ -41,6 +45,7 @@ private slots:
     void connectButtonClicked();
     void startGenerationButtonClicked();
     void stopGenerationButtonClicked();
+    void serialReceived();
 
 };
 

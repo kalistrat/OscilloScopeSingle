@@ -108,6 +108,9 @@ CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qvector2d.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qwindowdefs.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qwindowdefs_win.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtSerialPort/QSerialPortInfo
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtSerialPort/qserialportglobal.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtSerialPort/qserialportinfo.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QDialogButtonBox
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QLabel
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QListWidget
@@ -272,6 +275,9 @@ CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qvector2d.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qwindowdefs.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui/qwindowdefs_win.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtSerialPort/QSerialPortInfo
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtSerialPort/qserialportglobal.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtSerialPort/qserialportinfo.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QApplication
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QDialogButtonBox
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets/QLabel
@@ -320,6 +326,7 @@ CMakeFiles/OscilloScopeSingle.dir/main.cpp.obj
  D:/GitProjects/OscilloScopeSingle/main.cpp
  D:/GitProjects/OscilloScopeSingle/mainwindow.h
 CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/QDate
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/QDebug
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/QTextCodec
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qabstractitemmodel.h
@@ -340,6 +347,7 @@ CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qcontiguouscache.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qcoreevent.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdatastream.h
+ C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdatetime.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdebug.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdir.h
  C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qfile.h

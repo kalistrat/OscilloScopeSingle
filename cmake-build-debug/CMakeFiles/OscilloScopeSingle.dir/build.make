@@ -181,10 +181,35 @@ CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj.provides: CMakeFiles/OscilloScope
 CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj.provides.build: CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj
 
 
+CMakeFiles/OscilloScopeSingle.dir/MySerialPort.cpp.obj: CMakeFiles/OscilloScopeSingle.dir/flags.make
+CMakeFiles/OscilloScopeSingle.dir/MySerialPort.cpp.obj: CMakeFiles/OscilloScopeSingle.dir/includes_CXX.rsp
+CMakeFiles/OscilloScopeSingle.dir/MySerialPort.cpp.obj: ../MySerialPort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitProjects\OscilloScopeSingle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OscilloScopeSingle.dir/MySerialPort.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OscilloScopeSingle.dir\MySerialPort.cpp.obj -c D:\GitProjects\OscilloScopeSingle\MySerialPort.cpp
+
+CMakeFiles/OscilloScopeSingle.dir/MySerialPort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OscilloScopeSingle.dir/MySerialPort.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitProjects\OscilloScopeSingle\MySerialPort.cpp > CMakeFiles\OscilloScopeSingle.dir\MySerialPort.cpp.i
+
+CMakeFiles/OscilloScopeSingle.dir/MySerialPort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OscilloScopeSingle.dir/MySerialPort.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitProjects\OscilloScopeSingle\MySerialPort.cpp -o CMakeFiles\OscilloScopeSingle.dir\MySerialPort.cpp.s
+
+CMakeFiles/OscilloScopeSingle.dir/MySerialPort.cpp.obj.requires:
+
+.PHONY : CMakeFiles/OscilloScopeSingle.dir/MySerialPort.cpp.obj.requires
+
+CMakeFiles/OscilloScopeSingle.dir/MySerialPort.cpp.obj.provides: CMakeFiles/OscilloScopeSingle.dir/MySerialPort.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\OscilloScopeSingle.dir\build.make CMakeFiles/OscilloScopeSingle.dir/MySerialPort.cpp.obj.provides.build
+.PHONY : CMakeFiles/OscilloScopeSingle.dir/MySerialPort.cpp.obj.provides
+
+CMakeFiles/OscilloScopeSingle.dir/MySerialPort.cpp.obj.provides.build: CMakeFiles/OscilloScopeSingle.dir/MySerialPort.cpp.obj
+
+
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: CMakeFiles/OscilloScopeSingle.dir/flags.make
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: CMakeFiles/OscilloScopeSingle.dir/includes_CXX.rsp
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj: OscilloScopeSingle_autogen/moc_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitProjects\OscilloScopeSingle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitProjects\OscilloScopeSingle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OscilloScopeSingle.dir\OscilloScopeSingle_autogen\moc_compilation.cpp.obj -c D:\GitProjects\OscilloScopeSingle\cmake-build-debug\OscilloScopeSingle_autogen\moc_compilation.cpp
 
 CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.i: cmake_force
@@ -213,6 +238,7 @@ OscilloScopeSingle_OBJECTS = \
 "CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj" \
 "CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj" \
 "CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj" \
+"CMakeFiles/OscilloScopeSingle.dir/MySerialPort.cpp.obj" \
 "CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj"
 
 # External object files for target OscilloScopeSingle
@@ -223,6 +249,7 @@ OscilloScopeSingle.exe: CMakeFiles/OscilloScopeSingle.dir/mainwindow.cpp.obj
 OscilloScopeSingle.exe: CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj
 OscilloScopeSingle.exe: CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj
 OscilloScopeSingle.exe: CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj
+OscilloScopeSingle.exe: CMakeFiles/OscilloScopeSingle.dir/MySerialPort.cpp.obj
 OscilloScopeSingle.exe: CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj
 OscilloScopeSingle.exe: CMakeFiles/OscilloScopeSingle.dir/build.make
 OscilloScopeSingle.exe: C:/Qt/Qt5.8.0/5.8/mingw53_32/lib/libQt5Widgetsd.a
@@ -232,7 +259,7 @@ OscilloScopeSingle.exe: C:/Qt/Qt5.8.0/5.8/mingw53_32/lib/libQt5Cored.a
 OscilloScopeSingle.exe: CMakeFiles/OscilloScopeSingle.dir/linklibs.rsp
 OscilloScopeSingle.exe: CMakeFiles/OscilloScopeSingle.dir/objects1.rsp
 OscilloScopeSingle.exe: CMakeFiles/OscilloScopeSingle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\GitProjects\OscilloScopeSingle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable OscilloScopeSingle.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\GitProjects\OscilloScopeSingle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable OscilloScopeSingle.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\OscilloScopeSingle.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -245,6 +272,7 @@ CMakeFiles/OscilloScopeSingle.dir/requires: CMakeFiles/OscilloScopeSingle.dir/ma
 CMakeFiles/OscilloScopeSingle.dir/requires: CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj.requires
 CMakeFiles/OscilloScopeSingle.dir/requires: CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj.requires
 CMakeFiles/OscilloScopeSingle.dir/requires: CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj.requires
+CMakeFiles/OscilloScopeSingle.dir/requires: CMakeFiles/OscilloScopeSingle.dir/MySerialPort.cpp.obj.requires
 CMakeFiles/OscilloScopeSingle.dir/requires: CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj.requires
 
 .PHONY : CMakeFiles/OscilloScopeSingle.dir/requires

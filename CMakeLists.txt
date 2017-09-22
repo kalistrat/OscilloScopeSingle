@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_PREFIX_PATH "C:\\Qt\\Qt5.8.0\\5.8\\mingw53_32\\lib\\cmake")
 set(CMAKE_AUTOMOC ON)
 
-set(SOURCE_FILES main.cpp mainwindow.cpp mainwindow.h crc16_ccitt.cpp crc16_ccitt.h devcmd.cpp devcmd.h hdlc.cpp hdlc.h)
+set(SOURCE_FILES main.cpp mainwindow.cpp mainwindow.h crc16_ccitt.cpp crc16_ccitt.h devcmd.cpp devcmd.h hdlc.cpp hdlc.h MySerialPort.cpp MySerialPort.h)
 add_executable(OscilloScopeSingle ${SOURCE_FILES})
 
 set(CMAKE_PREFIX_PATH "C:\\Qt\\Qt5.8.0\\5.8\\mingw53_32\\lib\\cmake")

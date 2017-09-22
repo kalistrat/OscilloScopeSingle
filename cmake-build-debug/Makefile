@@ -135,6 +135,33 @@ OscilloScopeSingle_autogen/fast:
 	$(MAKE) -f CMakeFiles\OscilloScopeSingle_autogen.dir\build.make CMakeFiles/OscilloScopeSingle_autogen.dir/build
 .PHONY : OscilloScopeSingle_autogen/fast
 
+MySerialPort.obj: MySerialPort.cpp.obj
+
+.PHONY : MySerialPort.obj
+
+# target to build an object file
+MySerialPort.cpp.obj:
+	$(MAKE) -f CMakeFiles\OscilloScopeSingle.dir\build.make CMakeFiles/OscilloScopeSingle.dir/MySerialPort.cpp.obj
+.PHONY : MySerialPort.cpp.obj
+
+MySerialPort.i: MySerialPort.cpp.i
+
+.PHONY : MySerialPort.i
+
+# target to preprocess a source file
+MySerialPort.cpp.i:
+	$(MAKE) -f CMakeFiles\OscilloScopeSingle.dir\build.make CMakeFiles/OscilloScopeSingle.dir/MySerialPort.cpp.i
+.PHONY : MySerialPort.cpp.i
+
+MySerialPort.s: MySerialPort.cpp.s
+
+.PHONY : MySerialPort.s
+
+# target to generate assembly for a file
+MySerialPort.cpp.s:
+	$(MAKE) -f CMakeFiles\OscilloScopeSingle.dir\build.make CMakeFiles/OscilloScopeSingle.dir/MySerialPort.cpp.s
+.PHONY : MySerialPort.cpp.s
+
 OscilloScopeSingle_autogen/moc_compilation.obj: OscilloScopeSingle_autogen/moc_compilation.cpp.obj
 
 .PHONY : OscilloScopeSingle_autogen/moc_compilation.obj
@@ -307,6 +334,9 @@ help:
 	@echo ... OscilloScopeSingle
 	@echo ... rebuild_cache
 	@echo ... OscilloScopeSingle_autogen
+	@echo ... MySerialPort.obj
+	@echo ... MySerialPort.i
+	@echo ... MySerialPort.s
 	@echo ... OscilloScopeSingle_autogen/moc_compilation.obj
 	@echo ... OscilloScopeSingle_autogen/moc_compilation.i
 	@echo ... OscilloScopeSingle_autogen/moc_compilation.s

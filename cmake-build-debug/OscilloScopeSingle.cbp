@@ -114,6 +114,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/GitProjects/OscilloScopeSingle/MySerialPort.cpp">
+			<Option target="OscilloScopeSingle"/>
+		</Unit>
+		<Unit filename="D:/GitProjects/OscilloScopeSingle/MySerialPort.h">
+			<Option target="OscilloScopeSingle"/>
+		</Unit>
 		<Unit filename="D:/GitProjects/OscilloScopeSingle/cmake-build-debug/OscilloScopeSingle_autogen/moc_compilation.cpp">
 			<Option target="OscilloScopeSingle"/>
 		</Unit>

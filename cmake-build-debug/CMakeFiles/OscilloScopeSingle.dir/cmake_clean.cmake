@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/OscilloScopeSingle.dir/crc16_ccitt.cpp.obj"
   "CMakeFiles/OscilloScopeSingle.dir/devcmd.cpp.obj"
   "CMakeFiles/OscilloScopeSingle.dir/hdlc.cpp.obj"
+  "CMakeFiles/OscilloScopeSingle.dir/MySerialPort.cpp.obj"
   "CMakeFiles/OscilloScopeSingle.dir/OscilloScopeSingle_autogen/moc_compilation.cpp.obj"
   "OscilloScopeSingle.pdb"
   "OscilloScopeSingle.exe"

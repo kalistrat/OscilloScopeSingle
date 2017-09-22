@@ -10,6 +10,7 @@
 #include <QtCore/QTextCodec>
 #include <QtCore/QDate>
 #include "devcmd.h"
+#include "MySerialPort.h"
 
 extern std::vector<uint8_t>TxData;
 
@@ -181,32 +182,40 @@ void MainWindow::connectButtonClicked()
 
                 foreach (const QSerialPortInfo &info, QSerialPortInfo::availablePorts()) {
                 errorTextEdit->append("Проверяется порт : " + info.portName());
-                QSerialPort serial;
-                serial.setPort(info);
+                MySerialPort *serial = new MySerialPort(info);
+                //serial.setPort(info);
 
-                if (serial.open(QIODevice::ReadWrite)) {
+                if (serial->serialPort->open(QIODevice::ReadWrite)) {
 
                     cmdGetDeviceState();
                     QByteArray *sentData = new QByteArray(reinterpret_cast<const char *>(TxData.data()), TxData.size());
-                    QByteArray input;
-                    serial.write(sentData->data());
-                    //TxData.clear();
-
-                    serial.waitForBytesWritten(1000);
-                    serial.waitForReadyRead(1000);
-                    input = serial.readAll();
+                    TxData.clear();
+                    serial->serialPort->write(sentData->data());
+                    serial->serialPort->waitForBytesWritten(100);
+                    serial->serialPort->waitForReadyRead(100);
+                    //input = serial->serialPort->readAll();
                     //std::cout << input << std::endl;
-                    QString DataAsString = QTextCodec::codecForMib(106)->toUnicode(input);
-                    qDebug() << input;
+                    //QString DataAsString = QTextCodec::codecForMib(106)->toUnicode(input);
+                    //qDebug() << input;
 
-                    if (DataAsString == "~") {
-                        errorTextEdit->append(info.portName() + " : " + "устройство найдено");
-                        reqSerialPortInfo = info;
-                    }
-                    serial.close();
+//                    if (DataAsString == "~") {
+//                        errorTextEdit->append(info.portName() + " : " + "устройство найдено");
+//                        reqSerialPortInfo = info;
+//                    }
+                    serial->serialPort->close();
+                    qDebug() << "Принято";
+                    qDebug() << serial->resBa;
+                    qDebug() << serial->resBa.size();
+                    //qDebug() << QTextCodec::codecForMib(106)->toUnicode(serial->resBa);
                 }
 
+
+
             }
+
+//                foreach (const QSerialPortInfo &info, QSerialPortInfo::availablePorts()) {
+//
+//            }
 
         errorTextEdit->append("Проверка портов завершена");
 

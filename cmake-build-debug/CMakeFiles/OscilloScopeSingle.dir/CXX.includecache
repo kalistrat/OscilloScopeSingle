@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/QArgument
+qobjectdefs.h
+C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qobjectdefs.h
+
 C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/QDate
 qdatetime.h
 C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdatetime.h
@@ -1592,6 +1596,30 @@ QtGui/qkeysequence.h
 QtGui/qevent.h
 -
 
+D:/GitProjects/OscilloScopeSingle/MySerialPort.cpp
+QtCore/QArgument
+-
+MySerialPort.h
+D:/GitProjects/OscilloScopeSingle/MySerialPort.h
+QDebug
+-
+
+D:/GitProjects/OscilloScopeSingle/MySerialPort.h
+QWidget
+-
+QtSerialPort/QSerialPort
+-
+QtSerialPort/QSerialPortInfo
+-
+
+D:/GitProjects/OscilloScopeSingle/cmake-build-debug/OscilloScopeSingle_autogen/EWIEGA46WW/moc_MySerialPort.cpp
+../../../MySerialPort.h
+D:/GitProjects/OscilloScopeSingle/MySerialPort.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
 D:/GitProjects/OscilloScopeSingle/cmake-build-debug/OscilloScopeSingle_autogen/EWIEGA46WW/moc_mainwindow.cpp
 ../../../mainwindow.h
 D:/GitProjects/OscilloScopeSingle/mainwindow.h
@@ -1601,6 +1629,8 @@ QtCore/qmetatype.h
 -
 
 D:/GitProjects/OscilloScopeSingle/cmake-build-debug/OscilloScopeSingle_autogen/moc_compilation.cpp
+EWIEGA46WW/moc_MySerialPort.cpp
+D:/GitProjects/OscilloScopeSingle/cmake-build-debug/OscilloScopeSingle_autogen/EWIEGA46WW/moc_MySerialPort.cpp
 EWIEGA46WW/moc_mainwindow.cpp
 D:/GitProjects/OscilloScopeSingle/cmake-build-debug/OscilloScopeSingle_autogen/EWIEGA46WW/moc_mainwindow.cpp
 
@@ -1687,6 +1717,8 @@ QtCore/QDate
 -
 devcmd.h
 D:/GitProjects/OscilloScopeSingle/devcmd.h
+MySerialPort.h
+D:/GitProjects/OscilloScopeSingle/MySerialPort.h
 
 D:/GitProjects/OscilloScopeSingle/mainwindow.h
 QtWidgets/QWidget

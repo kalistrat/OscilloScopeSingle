@@ -1,5 +1,5 @@
-set(AM_SOURCES "D:/GitProjects/OscilloScopeSingle/main.cpp;D:/GitProjects/OscilloScopeSingle/mainwindow.cpp;D:/GitProjects/OscilloScopeSingle/crc16_ccitt.cpp;D:/GitProjects/OscilloScopeSingle/devcmd.cpp;D:/GitProjects/OscilloScopeSingle/hdlc.cpp")
-set(AM_HEADERS "D:/GitProjects/OscilloScopeSingle/mainwindow.h;D:/GitProjects/OscilloScopeSingle/crc16_ccitt.h;D:/GitProjects/OscilloScopeSingle/devcmd.h;D:/GitProjects/OscilloScopeSingle/hdlc.h")
+set(AM_SOURCES "D:/GitProjects/OscilloScopeSingle/main.cpp;D:/GitProjects/OscilloScopeSingle/mainwindow.cpp;D:/GitProjects/OscilloScopeSingle/crc16_ccitt.cpp;D:/GitProjects/OscilloScopeSingle/devcmd.cpp;D:/GitProjects/OscilloScopeSingle/hdlc.cpp;D:/GitProjects/OscilloScopeSingle/MySerialPort.cpp")
+set(AM_HEADERS "D:/GitProjects/OscilloScopeSingle/mainwindow.h;D:/GitProjects/OscilloScopeSingle/crc16_ccitt.h;D:/GitProjects/OscilloScopeSingle/devcmd.h;D:/GitProjects/OscilloScopeSingle/hdlc.h;D:/GitProjects/OscilloScopeSingle/MySerialPort.h")
 set(AM_SKIP_MOC "")
 set(AM_SKIP_UIC )
 set(AM_MOC_COMPILE_DEFINITIONS "QT_CORE_LIB;QT_GUI_LIB;QT_SERIALPORT_LIB;QT_WIDGETS_LIB")
